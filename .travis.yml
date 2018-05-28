@@ -2,13 +2,6 @@ sudo: false
 language: node_js
 node_js:
 - node
-install: npm install
-script:
-- npm test
-- gulp
-cache:
-  directories:
-  - node_modules
 env:
   global:
   - secure: TWbuZENUdPM1ZSm97w3Zya7lSTJKQzywITXvZ1WoMi2WoO+Be2JqIH4MRuq851NbAxFloLTSFcHMjaayaP2bDfBaJXMiI+gSiEt8OjO5+SPibOvPmeMp/kOQSIb2FHRB9Z0koALFiyzwMCE65elmKRQxgP1UCVHyr48m6QlBD3YgQhzkBUec9krNcf3Sn4XVn4Fa2nRA5K7wJNnAEX4OXHp/pTX6g9XemdMMEfbEQ5zvI6iw7qYF6K0Cu6soREMHrbIPDTQS0CQrh1x7PFA7SN3I6TBSrQ/8vq4687r+Dhll1nUsFBF1kQdE4qAXzve4MTD4P94SjUgxrXBMwkFOn5Zbcaa296lEqCs7rFChKjCBaDY3t8y0rCod3pK/SgXedLPTW2McKqlkcJ+k9xnsfkWWuliGgydZK8uCaOVTi8SuUWvg95MsVn2n/xxB6ZCPKCIOEJdbSPIi0dnWmsnMJHeZlyWAY0UuOQNMS5uLa1tEZX9LA2G3ty8QaRK61+EHYm5OJTODW/OFGOO3Ep7MEfxa6PX3iYTAc4RSZPEUZqxUuZdlG2ItNQqrtPn/4/MAFaTdMuOAgFrL0aMligeyBKvYM2LixYguuJqZbSQ8hF9YQuakWodKqLi3Yzld0LpUrA1wdz7q+Pa9lCcP0fxLvtIhOTEcEYn3ON9JD/tqndk=
